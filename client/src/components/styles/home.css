@@ -1,0 +1,140 @@
+/* home.css */
+
+.cv-container {
+    font-family: "Segoe UI, sans-serif";
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    padding: 40px;
+}
+
+.cv-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.cv-subtitle {/* home.css */
+
+.cv-container {
+    font-family: "Segoe UI, sans-serif";
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    padding: 40px;
+}
+
+.cv-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.cv-subtitle {
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+.cv-section {
+    margin-bottom: 2em;
+}
+
+.cv-skills-list {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.cv-skill-item {
+    background: #fff;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.cv-skill-item:hover {
+    background: #b6e0fe;
+    transform: scale(1.1);
+}
+
+.cv-experience {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.cv-experience:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transform: scale(1.02);
+}
+
+.cv-experience-period,
+.cv-education-period {
+    color: #888;
+}
+
+.cv-education {
+    background: #f7fafc;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+.cv-section {
+    margin-bottom: 2em;
+}
+
+.cv-skills-list {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.cv-skill-item {
+    background: #fff;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.cv-skill-item:hover {
+    background: #b6e0fe;
+    transform: scale(1.1);
+}
+
+.cv-experience {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.cv-experience:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transform: scale(1.02);
+}
+
+.cv-experience-period,
+.cv-education-period {
+    color: #888;
+}
+
+.cv-education {
+    background: #f7fafc;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "A template CV",
+  "homepage": "https://github.com/DanielJ0131/CV#readme",
+  "bugs": {
+    "url": "https://github.com/DanielJ0131/CV/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJ0131/CV.git"
+  },
+  "license": "ISC",
+  "author": "Daniel Jönsson",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && nodemon --env-file=.env index.js",
+    "client": "cd client && npm run build && npm run dev",
+    "boom": "npm i && cd client && npm i && cd ../server && npm i",
+    "render-server": "cd server && node index.js",
+    "render-run": "concurrently \"npm run render-server\" \"npm run client\"",
+    "clean-server": "cd server && rm -rf package-lock.json node_modules/",
+    "clean-client": "cd client && rm -rf package-lock.json node_modules/",
+    "clean": "npm run clean-server; npm run clean-client; rm -rf package-lock.json node_modules/;"
+  },
+    "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
